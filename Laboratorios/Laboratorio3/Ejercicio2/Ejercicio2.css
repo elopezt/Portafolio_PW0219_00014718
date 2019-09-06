@@ -1,0 +1,78 @@
+body {
+  background-image: url("http://www.fondosni.com/images/2012-09-22/Fondo%20azul%20con%20rosa%20y%20naranja-768139.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  margin: 1em 5%;
+  padding: 0%;
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+  width: 100%;
+  height: auto;
+}
+
+img {
+  margin: 5px;
+}
+
+main {
+  display: block;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+  height: auto;
+}
+
+footer {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  width: 100%;
+  height: auto;
+}
+.titulo {
+  display: inline-block;
+}
+hr {
+  display: block;
+  color: white;
+}
+
+.logos {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  max-width: 60%;
+}
+
+.logos img {
+  max-width: 110px;
+  border-radius: 100%;
+}
+
+.buttom-frame1 {
+  background-color: #ccffdd;
+}
+
+.buttom-frame2 {
+  background-color: #ffcccc;
+}
+.buttom-frame3 {
+  background-color: blue;
+}
+button:hover {
+  background-color: #b3f0ff;
+}
