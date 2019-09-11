@@ -1,0 +1,174 @@
+@import url("https://fonts.googleapis.com/css?family=Chilanka&display=swap");
+body {
+  background-image: url("http://www.fondosni.com/images/2012-09-22/Fondo%20azul%20con%20rosa%20y%20naranja-768139.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 1em 5%;
+  padding: 0%;
+  height: 100vh;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+h1 {
+  font-family: "Chilanka", cursive;
+  font-size: 63px;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  width: 100%;
+  height: auto;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+img {
+  margin: 5px;
+}
+
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  width: 100%;
+  height: auto;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+footer button {
+  background-color: gray;
+  opacity: 100%;
+  border: solid transparent 1px;
+  color: #ffff;
+  border-radius: 10%;
+}
+
+.titulo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+}
+
+hr {
+  width: 50%;
+  border-width: 10px/5px;
+  display: block;
+  color: #ffff;
+}
+
+.logos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.logos img {
+  max-width: 75px;
+  border-radius: 100%;
+}
+
+.buttom-frame1 {
+  background-color: #22451c;
+  height: 3em;
+  width: 10em;
+  color: white;
+  border-radius: 10%;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  border: solid transparent 1px;
+  margin-right: 15px;
+}
+
+.buttom-frame2 {
+  background-color: #e655b0;
+  height: 3em;
+  width: 10em;
+  color: white;
+  border-radius: 10%;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  border: solid transparent 1px;
+  margin-right: 15px;
+}
+
+.buttom-frame3 {
+  background-color: #345385;
+  height: 3em;
+  width: 10em;
+  color: white;
+  border-radius: 10%;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  border: solid transparent 1px;
+}
+
+button:hover {
+  background-color: transparent;
+}
+
+.buttom-frame4:hover:hover {
+  background-color: #ffff;
+}
+
+.buttom-frame5:hover:hover {
+  background-color: #ffff;
+}
+/*# sourceMappingURL=Ejercicio1.css.map */

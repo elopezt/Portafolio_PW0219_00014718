@@ -1,0 +1,135 @@
+@import "colores";
+$deep-color: #ffff;
+
+@mixin hov {
+  &:hover {
+    background-color: $deep-color;
+  }
+}
+
+@mixin a {
+  display: flex;
+  flex-flow: row wrap;
+  width: 100%;
+  height: auto;
+}
+
+@mixin botones_superiores() {
+  height: 3em;
+  width: 10em;
+  color: white;
+  border-radius: 10%;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  border: solid transparent 1px;
+}
+
+@mixin botones_inferiores {
+  background-color: gray;
+  opacity: 100%;
+  border: solid transparent 1px;
+  color: $deep-color;
+  border-radius: 10%;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Chilanka&display=swap");
+body {
+  background-image: url("http://www.fondosni.com/images/2012-09-22/Fondo%20azul%20con%20rosa%20y%20naranja-768139.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  margin: 1em 5%;
+  padding: 0%;
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-family: "Chilanka", cursive;
+  font-size: 63px;
+}
+
+.container {
+  @include a;
+  justify-content: flex-end;
+}
+
+img {
+  margin: 5px;
+}
+
+.main {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  width: 100%;
+}
+
+footer {
+  @include a;
+  justify-content: space-between;
+
+  button {
+    @include botones_inferiores();
+  }
+}
+
+.titulo {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+hr {
+  width: 50%;
+  border-width: 10px/5px;
+  display: block;
+  color: $deep-color;
+}
+
+.logos {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.logos img {
+  max-width: 100px - 25px;
+  border-radius: 100%;
+}
+
+.buttom-frame1 {
+  background-color: #22451c;
+  @include botones_superiores();
+  margin-right: 15px;
+}
+
+.buttom-frame2 {
+  background-color: #e655b0;
+  @include botones_superiores();
+  margin-right: 15px;
+}
+
+.buttom-frame3 {
+  background-color: #345385;
+  @include botones_superiores();
+}
+
+button:hover {
+  background-color: transparent;
+}
+
+.buttom-frame4:hover {
+  @include hov();
+}
+
+.buttom-frame5:hover {
+  @include hov();
+}
