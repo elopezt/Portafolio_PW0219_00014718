@@ -8,6 +8,22 @@ function numero(num) {
     console.log(arreglo[i]);
   }
   for (var j = 0; j < arreglo.length; j++) {
+    function ordenar(arreglo) {
+      var ordenado = false
+      while (!ordenado) {
+        ordenado = true;
+        arreglo.forEach(function (element, indice, array) {
+          if (element > array[indice + 1]) {
+            array[indice] = array[indice + 1];
+            array[indice + 1] = element;
+            ordenado = false;
+          }
+        });
+      }
+      return arreglo;
+    }
+
+    console.log(ordenar([4, 5, 2, 3, 1, 10]));
     if (arreglo[j] == num) {
       console.log("FELICIDADES, ¡GANASTE!");
       ganar = true;

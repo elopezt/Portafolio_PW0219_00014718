@@ -1,5 +1,5 @@
 function ordenar(arreglo) {
-    var ordenado = false
+    var ordenado = false;
     while (!ordenado) {
         ordenado = true;
         arreglo.forEach(function (element, indice, array) {

@@ -2,7 +2,7 @@ function operarArreglo(arreglo) {
   var promedio = 0;
   var sum = 0;
 
-  for(var i = 0; i < arreglo.length; i++) {
+  for (var i = 0; i < arreglo.length; i++) {
     sum = sum + arreglo[i];
   }
   promedio = sum / arreglo.length;

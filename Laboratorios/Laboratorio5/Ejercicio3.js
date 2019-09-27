@@ -7,4 +7,4 @@ function ocurrencias(datos) {
   }
   console.log(cont);
 }
-ocurrencias([[7,1,2,7,7,5,9,3, "hola"], 7]);
+ocurrencias([[7, 1, 2, 7, 7, 5, 9, 3, "hola"], 7]);
